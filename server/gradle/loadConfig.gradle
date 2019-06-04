@@ -1,0 +1,4 @@
+ext {
+    env = project.hasProperty('env') ? project.env : 'local'
+    config = new ConfigSlurper(env).parse(new File("$projectDir/gradle/config.groovy").toURI().toURL())
+}
