@@ -1,6 +1,6 @@
 package com.spring.starter.service;
 
-import com.spring.starter.Repository.StarterRepository;
+import com.spring.starter.repository.StarterRepository;
 import com.spring.starter.entity.Starter;
 import org.springframework.stereotype.Service;
 

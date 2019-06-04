@@ -1,6 +1,6 @@
 package com.spring.starter.service;
 
-import com.spring.starter.Repository.StarterRepository;
+import com.spring.starter.repository.StarterRepository;
 import com.spring.starter.entity.Starter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,7 +22,7 @@ public class StarterServiceTest {
     StarterService service;
 
     @Test
-    public void saveRecord() throws Exception {
+    public void saveRecord() {
 
         Starter entity = Starter.builder().build();
 

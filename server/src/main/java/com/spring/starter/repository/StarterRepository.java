@@ -1,4 +1,4 @@
-package com.spring.starter.Repository;
+package com.spring.starter.repository;
 
 import com.spring.starter.entity.Starter;
 import org.springframework.data.jpa.repository.JpaRepository;
