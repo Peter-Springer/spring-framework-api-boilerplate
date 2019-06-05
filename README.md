@@ -15,7 +15,7 @@
 ### Database setup
 * Create mysql database named spring_starter or alter database urls in both the application.yml and config.groovy 
 * You should not need to manual create any tables
-* One flyway migration file is included (V1__initial_migration.sql)
+* One flyway migration file is included ```V1__initial_migration.sql```
 * Migrations can be run using ```./gradlew fC fM -Penv=local```
 
 ### Running the Application
