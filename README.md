@@ -16,7 +16,7 @@
 * Create mysql database named spring_starter or alter database urls in both the application.yml and config.groovy 
 * You should not need to manual create any tables
 * One flyway migration file is included (V1__initial_migration.sql)
-* migrations can be run using ```./gradlew fC fM -Penv=local```
+* Migrations can be run using ```./gradlew fC fM -Penv=local```
 
 ### Running the Application
 * You may need to turn on annotation processing and install the Lombok plugin in your IDE
